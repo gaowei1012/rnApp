@@ -1,0 +1,61 @@
+{
+  "name": "rnApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "build:ios": "react-native bundle --entry-file index.js --platform ios --dev false --bundle-output release_ios/main.jsbundle --assets-dest release_ios/"
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-native": "0.67.3",
+    "react-native-bouncy-checkbox": "^2.1.10",
+    "react-native-bouncy-checkbox-group": "^0.1.0",
+    "react-native-elements": "^3.4.2",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-htmlview": "^0.16.0",
+    "react-native-image-picker": "^4.7.3",
+    "react-native-modal": "^13.0.0",
+    "react-native-reanimated": "^2.2.4",
+    "react-native-root-toast": "^3.3.0",
+    "react-native-safe-area-context": "^3.4.0",
+    "react-native-screens": "^3.9.0",
+    "react-native-svg": "^12.1.1",
+    "react-native-swiper": "^1.6.0",
+    "react-native-vector-icons": "^9.1.0",
+    "react-navigation-tabs": "^2.11.1",
+    "validator": "^13.7.0",
+    "@react-native-async-storage/async-storage": "^1.16.0",
+    "ahooks": "^3.1.9",
+    "axios": "^0.25.0",
+    "cross-env": "^7.0.3",
+    "mobx": "6.3.2",
+    "mobx-react-lite": "3.1.6",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/runtime": "^7.17.2",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.5.1",
+    "eslint": "^8.9.0",
+    "jest": "^27.5.1",
+    "metro-react-native-babel-preset": "^0.68.0",
+    "react-test-renderer": "17.0.2",
+    "@react-navigation/bottom-tabs": "^6.0.9",
+    "@react-navigation/drawer": "^6.1.8",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.2.5",
+    "@react-navigation/stack": "^6.0.11",
+    "@types/lodash": "^4.14.177",
+    "@types/react-native-htmlview": "^0.16.0",
+    "typescript": "^4.5.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
